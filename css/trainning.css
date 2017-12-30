@@ -1,0 +1,240 @@
+*{
+	
+    
+}
+p{
+	margin: 0px;
+}
+.train-pimg1{
+	min-height: 600px;
+	background: url(../img/01-trainning.jpg);
+	background-position: right ;	
+	background-size: cover;
+	padding:100px;
+	opacity: 0;
+   	transition: all 2s ease;
+}
+.revolution{
+	transform: translateX(-30px);
+   	transition: all 1s ease;
+}
+
+.head-title{
+	letter-spacing: 10px;
+	font-size: 66px;
+    font-weight: 400;
+    font-family: adineuePROCond-Regular, sans-serif;
+    text-transform: uppercase;
+    height: 136px;
+    /*line-height: 200%;*/
+
+}
+.body-title{
+	letter-spacing: 9px;
+	font-size: 66px;
+    font-weight: 1000;
+    font-family: adineuePROCond-Regular, sans-serif;
+    text-transform: uppercase;
+    line-height: 200%;
+    display: block;
+    margin-top: -45px;
+}
+.revolution p{
+	margin-bottom: 12px;
+	font-size: 20px;
+    line-height: 28px;
+    font-family: adihaus-reg,sans-serif;
+   	font-weight: 500;
+
+}
+.btn-revolution{
+	position: relative;
+    background-color: #000;
+    color: #fff;
+    border-width: 2px;
+    border-color: #000;
+    font-family: adineue-black,sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    width: 250px;
+    padding: 20px;
+    margin-bottom: 10px;
+    line-height: 80%;
+}
+.btn-revolution i{
+	float: right;
+	transition: all 1s ease;
+	line-height: 80%;
+}
+.btn-revolution:hover i{
+	transform: translateX(10px);
+}
+.btn-revolution:hover{
+	background-color: #333333;
+}
+.train-pimg2{
+	height: 800px;
+	margin-top: 20px;
+	opacity: 0;
+   	transition: all 2s ease;
+}
+.train-pimg2 p{
+	font-stretch: extra-condensed;
+	font-size: 60px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-weight: 100;
+	text-align: center;
+	line-height: 69px;
+
+}
+.looks img{
+	margin: auto;
+	transform: translateY(40px);
+	transition: all 2s ease;
+}
+.train-section1{
+	clear: both;
+	opacity: 0;
+	transition: all 1s ease;
+}
+.train-section1 #clp{
+	font-stretch: extra-condensed;
+	font-size: 40px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-weight: 100;
+	text-align: center;
+	line-height: 69px;
+	margin-bottom: 50px;
+}
+.teaser{
+	width: 23%;
+	height: 420px;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	transform: translateY(40px);
+	transition: all 2s ease;
+}
+.teaser:first-child{
+	margin-left: 10px;
+}
+.teaser a img{
+	transition: all 1s ease-in-out;
+}
+.teaser a:hover img{
+	transform: scale3d(1.1,1.1,1);
+}
+.title-outfit,.shop-outfit{
+	position: absolute;
+
+}
+.title-outfit {
+	top:35%;
+	color: #fff;
+	transform: translateY(40px);
+	transition: all 2s ease;
+}
+.title-outfit p{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.title-outfit p strong{
+	font-size: 40px;
+}
+.title-outfit p:last-child{
+	font-size: 15px;
+	text-transform: capitalize;
+	font-family: adineuePROCond-Regular, sans-serif;
+	font-weight: 500;
+	letter-spacing: 2px;
+	line-height: 20px;
+	margin-top: 40px;
+}
+.shop-outfit{
+	bottom: 40px;
+	left: 20%;
+	color:#000;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	background-color: #fff;
+	padding: 10px 20px;
+}
+.shop-outfit:hover{
+	background: #000;
+	border: 1px solid #000;
+	color: #fff;
+}
+.shop-outfit i{
+	transition: transform 1s ease;
+}
+.shop-outfit:hover i{
+	transform: translateX(10px);
+}
+.train-section2{
+	height: 700px;
+	clear: left;
+	padding-top: 20px;
+	opacity: 0;
+	transition: all 2s ease;
+}
+.once-left{
+	width: 800px;
+	float: left;
+}
+.second-left{
+	float: left;
+	text-align: right;
+	padding-top: 130px;	
+	transform: translateY(40px);
+	transition: all 2s ease;
+}
+.trainning-bag{
+	font-size: 76px;
+    line-height: 66px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: -5px;
+}
+.trainning-desc{
+	font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0;
+    margin: 30px 0;
+    font-weight: 400;
+    font-family: adihausDIN-regular,sans-serif,sans-serif;
+    opacity: 0.9
+
+}.btn-bag{
+    background-color: #000;
+    color: #fff;
+    border-width: 2px;
+    border-color: #000;
+    font-family: adineue-black,sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    padding: 20px;
+    margin-bottom: 10px;
+    line-height: 80%;
+    text-align: center;
+    float: right;
+}
+.btn-bag i{
+	float: right;
+	transition: all 1s ease;
+	line-height: 80%;
+}
+.btn-bag:hover i{
+	transform: translateX(10px);
+}
+.btn-bag:hover{
+	background-color: #333333;
+}
